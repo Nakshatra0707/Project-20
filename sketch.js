@@ -4,7 +4,7 @@ var cat, catImg1,catImg2;
 var mouse, mouseImg1,mouseImg2;
 
 function preload() {
-    bg = loadImage("images/garden.png");
+    bg = loadImage("garden.png");
     catImg1= loadAnimation("catSitting.png");
     catImg2=loadAnimation("catWalking1.png","images/catWalking2.png");
     catImg3= loadAnimation("catHappy.png");
